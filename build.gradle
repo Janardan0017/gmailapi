@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'GmailQuickstart'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.1.13.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.13.RELEASE'
+    compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    compile 'com.google.apis:google-api-services-gmail:v1-rev83-1.23.0'
+    compile group: 'javax.mail', name: 'mail', version: '1.4.7'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+    compile group: 'org.springframework', name: 'spring-beans', version: '3.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '3.0.5.RELEASE'
+    compile group: 'com.messagebird', name: 'messagebird-api', version: '3.0.19'
+    compile 'com.google.apis:google-api-services-calendar:v3-rev305-1.23.0'
+}

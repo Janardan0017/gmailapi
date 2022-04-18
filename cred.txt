@@ -1,0 +1,8 @@
+Client Id
+372661039700-oej0p5em9mron54rlvtj9t1rbglaujjs.apps.googleusercontent.com
+
+Client Secret
+WaPxIeH7RzkS0GOy7arFbmbe
+
+Api Key
+AIzaSyDbcsPvjF4_85AhC_SsZ1SejPsJJi4Hydw

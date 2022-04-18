@@ -1,0 +1,231 @@
+{
+  "id": "177421b502ab22b2",
+  "threadId": "177421b502ab22b2",
+  "labelIds": [
+    "IMPORTANT",
+    "CATEGORY_FORUMS",
+    "INBOX"
+  ],
+  "snippet": "Dear Deepesh, Team Finoit wishes you a very happy work anniversary and would like to express gratitude for all your hard work, dedication, and efforts put in to make Finoit a better company. We hope",
+  "payload": {
+    "partId": "",
+    "mimeType": "multipart/alternative",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "janardan.c@finoit.co.in"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a2e:91d4:0:0:0:0:0 with SMTP id u20csp4940415ljg;        Tue, 26 Jan 2021 20:30:22 -0800 (PST)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a05:6402:190a:: with SMTP id e10mr7372382edz.110.1611721822694;        Tue, 26 Jan 2021 20:30:22 -0800 (PST)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=3; a=rsa-sha256; t=1611721822; cv=pass;        d=google.com; s=arc-20160816;        b=dZ1ezb7V1yTOR1wczO+rGH6LA2++QI7dLziE4aIU6wrdGc5HrKxTbWuNVj+GVdDZFA         T4xXnyv0sgf1h+pyKWlJ/5uBdcnEb6UOtCXc6OFPZza4705V2NceKMMa+PQUIKKaS5i/         5maA43oP3YCv+lupqK0zwWOE+Q7n0bCVj/xQ1jldEtd52tP2uYyEMIoD0+a9/U+0l2nw         UMzxwGffNCVog3ZvQGc80kbfFr5+KDa9fXjEi38IJ5byKLULMJ/j7phUPkO3O8i2Pe9r         zjE5yDcPxm8NVAwkL/KetOYUdFdLZiwJqrvKFbYiFyFAMFsPq6XIoU31iXqC2sYQadB+         jnmw=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-help:list-id:mailing-list:precedence:cc:to:subject:message-id         :date:from:mime-version:dkim-signature;        bh=ekbZZCwSzeSrud7BcEUrRL2+kBpFuJgPbscfES2DmLY=;        b=hImTjo2roASBslc2J3pVH7bzSUZUHea2nO9hL2CfYmVM+SSqIZ/Q1uiYpAMhg4Szua         t+R5mbAeC0i1kUWQjnEO6EcaBVMhudLk9er4KC4MBXts90+EiAX+xjurJ0Nw4ibfpes9         Np/pJgtFWF2KKB3oNlRHm2c18k0vFJqRPSqtYTVDgx/gh02oNsG/hz/9G5pGIVsYZNLM         NpQfYs7UU0bt0+F7NCLuhOm9G1PyuelObtxoBGclG5+XR6gdgrLt6SiS0k9w6GNGKFHS         BAWvq643Bizn8RFDCJCd7ZTqxFufM8D/lGJxUyUHZfsAKZ6u+kTsbFrS6inAm6uo/Gbw         +wGQ=="
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=3; mx.google.com;       dkim=pass header.i=@finoit-com.20150623.gappssmtp.com header.s=20150623 header.b=\"TP/Nbb+g\";       arc=pass (i=2 dkim=pass dkdomain=finoit-com.20150623.gappssmtp.com);       spf=softfail (google.com: domain of transitioning announcement+bncbdpj3g5zrmfbbxgyyoaamgqeitzwgdi@finoit.com does not designate 209.85.220.69 as permitted sender) smtp.mailfrom=announcement+bncBDPJ3G5ZRMFBBXGYYOAAMGQEITZWGDI@finoit.com;       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=finoit.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "\u003cannouncement+bncBDPJ3G5ZRMFBBXGYYOAAMGQEITZWGDI@finoit.com\u003e"
+      },
+      {
+        "name": "Received",
+        "value": "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])        by mx.google.com with SMTPS id p23sor436624eji.13.2021.01.26.20.30.22        for \u003cjanardan.c@finoit.co.in\u003e        (Google Transport Security);        Tue, 26 Jan 2021 20:30:22 -0800 (PST)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "softfail (google.com: domain of transitioning announcement+bncbdpj3g5zrmfbbxgyyoaamgqeitzwgdi@finoit.com does not designate 209.85.220.69 as permitted sender) client-ip=209.85.220.69;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@finoit-com.20150623.gappssmtp.com header.s=20150623 header.b=\"TP/Nbb+g\";       arc=pass (i=2 dkim=pass dkdomain=finoit-com.20150623.gappssmtp.com);       spf=softfail (google.com: domain of transitioning announcement+bncbdpj3g5zrmfbbxgyyoaamgqeitzwgdi@finoit.com does not designate 209.85.220.69 as permitted sender) smtp.mailfrom=announcement+bncBDPJ3G5ZRMFBBXGYYOAAMGQEITZWGDI@finoit.com;       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=finoit.com"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=2; a=rsa-sha256; t=1611721822; cv=pass;        d=google.com; s=arc-20160816;        b=nXwfNYApMlTsZe1s9mfn11hsgHyyJ+eUMowcWC4bh6vJgkHw+DeAUiUH1bdDGZW91+         9P0aS1hvUE8VMXWJr9tOnTZz75n78D6XpEvvZjoxzVqTJVxuwo+5mJy7d50Voos/nsXF         IiSIFLBovR5cVV8HLVaesGW9oOEycM/qvh969tO0f2fVhdrsWMWHHV5p2Tv+oU0coVVb         kmD3p0WY3mGzD0LJGXZ1xJNpC1VpQiKVRg6R6RPQJfzb137C9DZeKQg/agJTLSFSkADZ         FT3TIlSGpTr26Qm70vWa0ZArVfPKU3c9ZCc/v5alWnRsKxZ7cffsoEmV/bag/Yt2Sh6x         +Lig=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-help:list-id:mailing-list:precedence:cc:to:subject:message-id         :date:from:mime-version:dkim-signature;        bh=ekbZZCwSzeSrud7BcEUrRL2+kBpFuJgPbscfES2DmLY=;        b=HZ3sOqnupWoAWdcMnxvkFrQR6RkBbtaX6lLy5NufUGRn1jYZg/kBZSOvXYRhNNiNt5         qOAywvDMcFC6Qv/dxZG/iIVAU64KpX2hql1uT2r2d+8glYpag/Bj3Ji+NdlwX8T3sDMg         MywpfsNqAUT591VgWg+75qUlagqj5QvnjObC5I9VJ/tSKv944be2SnEuquz8c2KE8x7M         KG8/uLx6rNPxWIgyWBva+zt41BvM0rJN+Zh27RHCJocG0ZPkifZn7urQBq1mT1Rf3R8h         UIklkIqcyrXRqKVoCI4teIxVDMNBT7HswbYfIF8OobDC/gjqP+dlQ/2bexYHMIJ3672w         HLIg=="
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=2; mx.google.com;       dkim=pass header.i=@finoit-com.20150623.gappssmtp.com header.s=20150623 header.b=dc7Yyr2a;       spf=softfail (google.com: domain of transitioning hr@finoit.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=hr@finoit.com;       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=finoit.com"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=finoit-com.20150623.gappssmtp.com; s=20150623;        h=mime-version:from:date:message-id:subject:to:cc:x-original-sender         :x-original-authentication-results:precedence:mailing-list:list-id         :list-help;        bh=ekbZZCwSzeSrud7BcEUrRL2+kBpFuJgPbscfES2DmLY=;        b=TP/Nbb+gmSA538NrJftUkW8vnWbX8/srTJryvXjA0sXz61wR9skzyoim9rCmqi5JMM         DWNAH2+z54EFif7qZpzyE6TCA+oA5QHyqPUjJvHLfXNfPGtaGNaesj6gAt0QtngL9afo         t52YTMCX3VN1LrsNJ6LyrnEmjOFppjJebhmcBvLjWZj7Ceykfo+Ro0WvpJ8nZJm73AxV         nncvG03GL3w/hfqAMkRi4J2iJ0t5lqM/Za7CZTd/I+hwwT+HhLLGRmmVFgX6tC8ZuZHh         9vtupIQiwo5m7VYC0NilmsV10J6JqzQlwLGzvGRzDQ4KtcLUQl/aIbosR3N2fQdyiDUp         neuA=="
+      },
+      {
+        "name": "X-Google-DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20161025;        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc         :x-original-sender:x-original-authentication-results:precedence         :mailing-list:list-id:x-spam-checked-in-group:list-help;        bh=ekbZZCwSzeSrud7BcEUrRL2+kBpFuJgPbscfES2DmLY=;        b=Tb5+wKxkqdgFHPW/Ga2kMbLKuiq5mMrDop/3bBj4EwATKMuIcf75J+E9PbUzozMdB/         TXK/3pFUe411DdsGmkzZ9COoEhmZzl/OQjX0iGUIoiVvDb3CvxgPJtd+DCwrYkpwDSl9         r8i8imT5o9VUkVs2NN3Q6laf3ygCWQmFxuluHhF6RMvwc0FJ2LLKhgCthWGa6iPYII0M         rmUDvJiywWrxFrL8DC38DC4sHkVjRswF2SiVlXn11K9iM52D1HDdF3q3gFqRms5LG0o1         +EyehfWQndzncxbRTGMAcdUDgGpp9MYmK8UspHpL1M4h4uutkgTPr4OxatKvJSPU0nr7         94gw=="
+      },
+      {
+        "name": "X-Gm-Message-State",
+        "value": "AOAM531mtioMHfpByG/6WK0jJz+ER6trrVKQOuMC4Dil6HcPGQLcLfaH /pIN6gVnMXx1Sto4yQV/cEw="
+      },
+      {
+        "name": "X-Google-Smtp-Source",
+        "value": "ABdhPJyBFS1wjkBYccjciLdeXfEHbyireBKZSKgQNBLEqJn0fJk1iEket6Gy1MaYUAUDn0PhzH2lUg=="
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a19:341:: with SMTP id 62mr3918900lfd.500.1611721820854;        Tue, 26 Jan 2021 20:30:20 -0800 (PST)"
+      },
+      {
+        "name": "X-BeenThere",
+        "value": "announcement@finoit.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a2e:8850:: with SMTP id z16ls101654ljj.4.gmail; Tue, 26 Jan 2021 20:30:19 -0800 (PST)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a2e:9910:: with SMTP id v16mr4775077lji.153.1611721819364;        Tue, 26 Jan 2021 20:30:19 -0800 (PST)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1611721819; cv=none;        d=google.com; s=arc-20160816;        b=wgVNq9ixvIjIJf5VbiQi/BCQA4EXju1kceP4SHalHkEyoEqjRiZ23YAv5q3cI26how         nPXlKnniBjGYSQIbHcuFuMsyfmc75Rf0B+dM/6skPp/Is8WFahzSHNGFO/EjwPv7/krL         I9JbBJQjw6FjBRijNxxvIE9T6TdCqmcgSsc6MpAlQnQ8lw03QKZEoZQdXFISG2gUh2/n         e83VOI6mK+DmjzskU6SSnJ4FdQMrpaYE7Z3AiTi8sFa0AWSQB1j6bHorHr1PzqvW7FnY         tsnnqZFDL0Bbm6EFIxra9HQ8I0FKd/AYVCY/ErrM1T1BjhLbq6YCy2j3O+YRo5kKdURu         ON0g=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;        bh=ekbZZCwSzeSrud7BcEUrRL2+kBpFuJgPbscfES2DmLY=;        b=x7nKI2fpoSMlCp4OcvJAz2ZeDqL1TmqIuhyKulaLE22AzEDxBAXMStDZPDUt8zyZk5         UnzUcxSUnkSdlHkU2NYIqqigeFk9GZGPdBGlikSv5i0B0qveu29Qyleb8zSZtVU5ku+6         J7Sn1xRmP9qqWYQhaMV6vm6AloJvWyedwIJqknvemClVGcbCrDjeyhVBlgboOXnrZAgQ         QHfPcIheZ5gKTnruVkA+tLzCgsSEsgmEDIWVGashHKvyLBy8Shnngl2LrRT6f9vMNhpm         uVsR7AzaYNPJA1cpMyjHkFKMPAXGGfBJlhK0bnfPSTVJuYXdQcHKAGI5ligfiIC0TA89         zoGQ=="
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@finoit-com.20150623.gappssmtp.com header.s=20150623 header.b=dc7Yyr2a;       spf=softfail (google.com: domain of transitioning hr@finoit.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=hr@finoit.com;       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=finoit.com"
+      },
+      {
+        "name": "Received",
+        "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id h17sor307856lja.41.2021.01.26.20.30.19        for \u003cannouncement@finoit.com\u003e        (Google Transport Security);        Tue, 26 Jan 2021 20:30:19 -0800 (PST)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "softfail (google.com: domain of transitioning hr@finoit.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a2e:9b0b:: with SMTP id u11mr1494872lji.415.1611721818974; Tue, 26 Jan 2021 20:30:18 -0800 (PST)"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "From",
+        "value": "HR Finoit \u003chr@finoit.com\u003e"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 27 Jan 2021 10:00:00 +0530"
+      },
+      {
+        "name": "Message-ID",
+        "value": "\u003cCABKjLB33XYgMokQzK2kTc7N=bxL-afNtVn8RFRRAzn7Aowp7Pw@mail.gmail.com\u003e"
+      },
+      {
+        "name": "Subject",
+        "value": "Happy 7th Work Anniversary Deepesh Baghela!!!"
+      },
+      {
+        "name": "To",
+        "value": "Deepesh Baghela \u003cdeepesh.baghela@finoit.co.in\u003e"
+      },
+      {
+        "name": "Cc",
+        "value": "Finoit Announcement \u003cannouncement@finoit.com\u003e"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/alternative; boundary=\"0000000000007f3e5f05b9da3ab3\""
+      },
+      {
+        "name": "X-Original-Sender",
+        "value": "hr@finoit.com"
+      },
+      {
+        "name": "X-Original-Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@finoit-com.20150623.gappssmtp.com header.s=20150623 header.b=dc7Yyr2a;       spf=softfail (google.com: domain of transitioning hr@finoit.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=hr@finoit.com;       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=finoit.com"
+      },
+      {
+        "name": "Precedence",
+        "value": "list"
+      },
+      {
+        "name": "Mailing-list",
+        "value": "list announcement@finoit.com; contact announcement+owners@finoit.com"
+      },
+      {
+        "name": "List-ID",
+        "value": "\u003cannouncement.finoit.com\u003e"
+      },
+      {
+        "name": "X-Spam-Checked-In-Group",
+        "value": "announcement@finoit.com"
+      },
+      {
+        "name": "X-Google-Group-Id",
+        "value": "1014248970944"
+      },
+      {
+        "name": "List-Help",
+        "value": "\u003chttps://support.google.com/a/finoit.com/bin/topic.py?topic=25838\u003e, \u003cmailto:announcement+help@finoit.com\u003e"
+      }
+    ],
+    "body": {
+      "size": 0
+    },
+    "parts": [
+      {
+        "partId": "0",
+        "mimeType": "text/plain",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/plain; charset=\"UTF-8\""
+          }
+        ],
+        "body": {
+          "size": 416,
+          "data": "KkRlYXIgRGVlcGVzaCwqDQoNClRlYW0gRmlub2l0IHdpc2hlcyB5b3UgYSB2ZXJ5IGhhcHB5IHdvcmsgYW5uaXZlcnNhcnkgYW5kIHdvdWxkIGxpa2UgdG8NCmV4cHJlc3MgZ3JhdGl0dWRlIGZvciBhbGwgeW91ciBoYXJkIHdvcmssIGRlZGljYXRpb24sIGFuZCBlZmZvcnRzIHB1dCBpbiB0bw0KbWFrZSBGaW5vaXQgYSBiZXR0ZXIgY29tcGFueS4NCg0KV2UgaG9wZSB0aGF0IEZpbm9pdCBoYXMgbWFkZSBhIHBvc2l0aXZlIGNvbnRyaWJ1dGlvbiB0byB5b3VyIGxpZmUgb24gYWxsDQpmcm9udHMgYW5kIGFyZSBsb29raW5nIGZvcndhcmQgdG8gYSBsb25nIGNvbGxhYm9yYXRpb24uDQoNCktlZXAgdXAgdGhlIGdvb2Qgd29yayBhbmQgd2Ugd2lzaCB5b3UgYWxsIHRoZSBzdWNjZXNzLg0KDQoNCipUaGFua3MsVGVhbSBGaW5vaXQqDQo="
+        }
+      },
+      {
+        "partId": "1",
+        "mimeType": "text/html",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/html; charset=\"UTF-8\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "quoted-printable"
+          }
+        ],
+        "body": {
+          "size": 1355,
+          "data": "PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciIgY2xhc3M9ImdtYWlsX3NpZ25hdHVyZSIgZGF0YS1zbWFydG1haWw9ImdtYWlsX3NpZ25hdHVyZSI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBzdHlsZT0ibWFyZ2luLWJvdHRvbTowcHg7bWFyZ2luLWxlZnQ6MHB4O3BhZGRpbmctYm90dG9tOjVweCI-PGRpdiBkaXI9Imx0ciI-PGRpdiBzdHlsZT0ibWFyZ2luLWJvdHRvbTowcHg7bWFyZ2luLWxlZnQ6MHB4O3BhZGRpbmctYm90dG9tOjVweCI-PGRpdj48Yj48Zm9udCBjb2xvcj0iIzA3Mzc2MyI-PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OnRhaG9tYSxzYW5zLXNlcmlmIj5EZWFyIERlZXBlc2g8L3NwYW4-PC9mb250PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp0YWhvbWEsc2Fucy1zZXJpZjtjb2xvcjpyZ2IoNyw1NSw5OSkiPiw8L3NwYW4-PC9iPjwvZGl2PjxkaXY-PGZvbnQgY29sb3I9IiMwNzM3NjMiIGZhY2U9InRhaG9tYSwgc2Fucy1zZXJpZiI-PGJyPjwvZm9udD48L2Rpdj48Zm9udCBjb2xvcj0iIzA3Mzc2MyIgZmFjZT0idGFob21hLCBzYW5zLXNlcmlmIj5UZWFtIEZpbm9pdCB3aXNoZXMgeW91IGEgdmVyeSBoYXBwecKgd29ya8KgYW5uaXZlcnNhcnnCoGFuZCB3b3VsZCBsaWtlIHRvIGV4cHJlc3MgZ3JhdGl0dWRlIGZvciBhbGwgeW91ciBoYXJkwqB3b3JrLCBkZWRpY2F0aW9uLCBhbmQgZWZmb3J0cyBwdXQgaW4gdG8gbWFrZSBGaW5vaXQgYSBiZXR0ZXIgY29tcGFueS48YnI-PGJyPldlIGhvcGUgdGhhdCBGaW5vaXQgaGFzIG1hZGUgYSBwb3NpdGl2ZSBjb250cmlidXRpb24gdG8geW91ciBsaWZlIG9uIGFsbCBmcm9udHMgYW5kIGFyZSBsb29raW5nIGZvcndhcmQgdG8gYSBsb25nIGNvbGxhYm9yYXRpb24uPC9mb250PjxkaXY-PGZvbnQgY29sb3I9IiMwNzM3NjMiPjxmb250IGZhY2U9InRhaG9tYSwgc2Fucy1zZXJpZiI-PGJyPktlZXAgdXAgdGhlIGdvb2TCoHdvcmvCoGFuZCB3ZSB3aXNoIHlvdSBhbGwgdGhlIHN1Y2Nlc3MuPC9mb250Pjxicj48Zm9udCBmYWNlPSJ0YWhvbWEsIHNhbnMtc2VyaWYiPjxiPjxicj5UaGFua3MsPGJyPlRlYW0gRmlub2l0PC9iPjwvZm9udD48L2ZvbnQ-PC9kaXY-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PGRpdiBkaXI9Imx0ciI-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-PC9kaXY-DQo="
+        }
+      }
+    ]
+  },
+  "sizeEstimate": 12200,
+  "historyId": "1285955",
+  "internalDate": "1611721800000"
+}

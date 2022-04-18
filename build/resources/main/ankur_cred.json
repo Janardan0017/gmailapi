@@ -1,0 +1,20 @@
+{
+  "web": {
+    "client_id": "107856134641-e2gijsbh0pv04vlkpnf28k736c3bnq7g.apps.googleusercontent.com",
+    "project_id": "fieldcircle-prod",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "MvlkdNn2KEzIy3Dol5lmJNk-",
+    "redirect_uris": [
+      "https://app.fieldcircle.com",
+      "https://qa.fieldcircle.com",
+      "https://dev.fieldcircle.com"
+    ],
+    "javascript_origins": [
+      "https://app.fieldcircle.com",
+      "https://dev.fieldcircle.com",
+      "https://qa.fieldcircle.com"
+    ]
+  }
+}
